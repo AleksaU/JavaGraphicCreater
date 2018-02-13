@@ -72,7 +72,7 @@ public class Function04 extends JFrame {
 			x = x_min;
 
 			y = (double) (a * (Math.sqrt(Math.pow(x_min, 3))));
-			x_min += step;
+			x_min *= step;
 			double r = y * (-1);
 			series.add(x, y);
 			series1.add(x, r);
